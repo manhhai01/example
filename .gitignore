@@ -1,0 +1,12 @@
+target/
+.idea/
+.classpath
+.project
+.settings/
+.vscode/
+
+*.iml
+
+# OS files
+.DS_Store
+
