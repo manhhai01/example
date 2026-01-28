@@ -34,6 +34,7 @@ pipeline {
                         docker push %IMAGE_NAME%:latest
                         docker logout
                     """
+                }
             }
         }
     }
@@ -44,3 +45,4 @@ pipeline {
         }
     }
 }
+
