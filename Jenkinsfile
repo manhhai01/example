@@ -13,12 +13,6 @@ pipeline {
             }
         }
 
-        stage('Build JAR') {
-            steps {
-                bat "mvn -B clean package"
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 bat "docker build -t %IMAGE_NAME%:latest ."
